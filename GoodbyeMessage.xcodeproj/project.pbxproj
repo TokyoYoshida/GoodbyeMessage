@@ -15,6 +15,8 @@
 		1EB4BC4724D2A3E600738375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB4BC4524D2A3E600738375 /* LaunchScreen.storyboard */; };
 		1EB4BC5224D2A3E600738375 /* GoodbyeMessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB4BC5124D2A3E600738375 /* GoodbyeMessageTests.swift */; };
 		1EB4BC5D24D2A3E600738375 /* GoodbyeMessageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB4BC5C24D2A3E600738375 /* GoodbyeMessageUITests.swift */; };
+		1EB4BC6B24D2A4A600738375 /* StringShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1EB4BC6A24D2A4A600738375 /* StringShader.metal */; };
+		1EB4BC6D24D2A4AE00738375 /* BackgroundShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1EB4BC6C24D2A4AE00738375 /* BackgroundShader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1EB4BC5824D2A3E600738375 /* GoodbyeMessageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodbyeMessageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EB4BC5C24D2A3E600738375 /* GoodbyeMessageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodbyeMessageUITests.swift; sourceTree = "<group>"; };
 		1EB4BC5E24D2A3E600738375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EB4BC6A24D2A4A600738375 /* StringShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = StringShader.metal; sourceTree = "<group>"; };
+		1EB4BC6C24D2A4AE00738375 /* BackgroundShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = BackgroundShader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				1EB4BC3E24D2A3E400738375 /* GameViewController.swift */,
 				1EB4BC4024D2A3E400738375 /* Main.storyboard */,
 				1EB4BC4324D2A3E600738375 /* Assets.xcassets */,
+				1EB4BC6A24D2A4A600738375 /* StringShader.metal */,
+				1EB4BC6C24D2A4AE00738375 /* BackgroundShader.metal */,
 				1EB4BC4524D2A3E600738375 /* LaunchScreen.storyboard */,
 				1EB4BC4824D2A3E600738375 /* Info.plist */,
 			);
@@ -260,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EB4BC6B24D2A4A600738375 /* StringShader.metal in Sources */,
 				1EB4BC3F24D2A3E400738375 /* GameViewController.swift in Sources */,
+				1EB4BC6D24D2A4AE00738375 /* BackgroundShader.metal in Sources */,
 				1EB4BC3B24D2A3E400738375 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
