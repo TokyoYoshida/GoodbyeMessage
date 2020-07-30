@@ -5,6 +5,7 @@
 //  Created by TokyoYoshida on 2020/07/30.
 //  Copyright © 2020 TokyoMac. All rights reserved.
 //
+//  Quote from : http://glslsandbox.com/e#65865.2
 
 #include <metal_stdlib>
 using namespace metal;
